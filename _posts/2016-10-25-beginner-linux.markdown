@@ -119,7 +119,7 @@ In the next example, we are going to run an Ubuntu Linux container on top of an 
 
 2. Run the following commands in the container.
 
-    `ls /` will list the contents of the root director in the container, `ps aux` will show running processes in the container, `cat /etc/issue` will show which Linux distro the container is running, in this case Ubuntu 18.04.3 LTS.
+    `ls /` will list the contents of the root directory in the container, `ps aux` will show running processes in the container, `cat /etc/issue` will show which Linux distro the container is running, in this case Ubuntu 20.04.3 LTS.
 
    ```.term1
    ls /
@@ -431,7 +431,7 @@ When you use a bind mount, a file or directory on the host machine is mounted in
     $DOCKERID/linux_tweet_app:1.0
     ```
 
-    > Remember from the Dockerfile, `usr/share/nginx/html` is where the html files are stored for the web app.
+    > Remember from the Dockerfile, `/usr/share/nginx/html` is where the html files are stored for the web app.
 
 2. The [website](/){:data-term=".term1"}{:data-port="80"} should be running.
 
